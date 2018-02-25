@@ -6424,11 +6424,6 @@ footer {
     color: rgba(236, 240, 241, 0.6);
     list-style-type: none; }
 
-@font-face {
-  footer ul li.item-footer {
-    font-family: 'Montserrat', sans-serif;
-    src: url("https://fonts.googleapis.com/css?family=Montserrat"); } }
-
 textarea {
   resize: none; }
 
