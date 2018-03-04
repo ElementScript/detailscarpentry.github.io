@@ -90,6 +90,10 @@
     <body>
 
         <div class="container-fluid"> <!-- INICIO DO CONTAINER PRINCIPAL -->
+
+            <div class="row">
+                
+            </div>
             <div class="row app-menu">
                 <div class="col-xl-3 col-md-2 col-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="190" height="80" viewBox="0 0 210 297"  id="svg3705">
@@ -112,14 +116,15 @@
                 <div class="col-xl-9 col-md-10 col-12">
                     <div class="row third-spc-menu justify-content-end">
                         <nav class="nav">
-                            <a class="nav-item nav-link" href="./home.php">H . O . M . E</a>
-                            <a class="nav-item nav-link" href="./photos.php">P . H . O . T . O . S</a>
-                            <a class="nav-item nav-link" href="./about.php">A . B . O . U . T</a>
-                            <a class="nav-item nav-link" href="./contact.php">C . O . N . T . A . C . T</a>
+                            <a class="nav-item nav-link" href="#">H . O . M . E</a>
+                            <a class="nav-item nav-link" href="#">P . H . O . T . O . S</a>
+                            <a class="nav-item nav-link" href="#">A . B . O . U . T</a>
+                            <a class="nav-item nav-link" href="#contact">C . O . N . T . A . C . T</a>
                         </nav>
                     </div>
                 </div>
             </div>
+
 
             <div class="container">
                 <div class="row">
@@ -138,7 +143,36 @@
                 </div>
             </div>
 		
-		
+	    <div id="contact" class="col-xl-6 col-lg-6">
+
+                <h1 class="display-3">Contact us</h1>
+
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" name="email" id="" class="form-control" placeholder="Your Email" autofocus>
+
+                        <label for="name">Your Name:</label>
+                        <input type="text" name="name" id="" class="form-control" placeholder="Your Name">
+
+                        <label for="subject">Subject:</label>
+                        <input type="text" name="subject" id="" class="form-control" placeholder="Subject">
+
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" name="message" id="" cols="30" rows="5"></textarea>
+
+
+                        <input type="text" name="check1" id="check1" class="">
+                        <input type="hidden" name="check2" id="check2">
+
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+
+
         </div> <!-- FIM DO CONTAINER PRINCIPAL -->
         
         <footer>
